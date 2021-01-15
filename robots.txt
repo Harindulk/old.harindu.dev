@@ -1,3 +1,3 @@
 # robotstxt.org/
-
+Sitemap: https://www.harindu.dev/sitemap.xml
 User-agent: *
