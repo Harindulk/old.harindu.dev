@@ -1,5 +1,5 @@
 # Special thanks @Github_Student_Developer_Pack
-### #Boostrap Studio 
+#### #Boostrap Studio 
 ### #NameCheap 
 ### #Canva
 ### #Iconscout 
