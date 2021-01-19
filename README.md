@@ -1,9 +1,5 @@
 # Special thanks @Github_Student_Developer_Pack
-#### #Boostrap Studio #NameCheap #Canva
- 
-### #Iconscout 
-### #Icons8
-### #Github Pages
+#### #Boostrap Studio #NameCheap #Canva #Iconscout #Icons8 #Github Pages
 ## www.harindu.dev
 ## www.harindu.dev/About.html
 ## Twitter - https://twitter.com/Harindu_Fonseka
