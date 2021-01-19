@@ -1,5 +1,5 @@
-# Special Thanks @Github_Student_Developer_Pack
-## Boostrap Studio
+# Special thanks @github_Student_Developer_Pack
+## #Boostrap Studio
 ## www.harindu.dev
 ## www.harindu.dev/About.html
 ## Twitter - https://twitter.com/Harindu_Fonseka
