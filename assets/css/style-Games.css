@@ -616,7 +616,7 @@ a:hover {
 # Intro Section
 --------------------------------------------------------------*/
 .intro {
-  height: 100vh;
+  height: 50vh;
   position: relative;
   color: #fff;
 }
