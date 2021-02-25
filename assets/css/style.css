@@ -523,7 +523,7 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: hsl(234, 100%, 16%);
+  color: hsl(0, 0%, 0%);
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
