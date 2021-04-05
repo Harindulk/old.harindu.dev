@@ -3,6 +3,10 @@
 
 ### Personal website of Harindu Fonseka. Built with NameCheap, Canva, Iconscout, and Icons8. Hosted on Github Pages with .dev Domain.
 
+<h3 align="left">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/Harindulk"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Harindulk" /></a></p><br><br>
+
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://dev.to/harindullk" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="harindullk" height="30" width="40" /></a>
