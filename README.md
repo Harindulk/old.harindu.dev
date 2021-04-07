@@ -1,7 +1,11 @@
 #### #Boostrap Studio #NameCheap #Canva #Iconscout #Icons8 #Github Pages
-### www.harindu.dev  ||  www.harindu.dev/About
+### www.harindu.dev 
 
 ### Personal website of Harindu Fonseka. Built with NameCheap, Canva, Iconscout, and Icons8. Hosted on Github Pages with .dev Domain.
+
+<h3 align="left">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/Harindulk"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Harindulk" /></a></p><br><br>
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -12,4 +16,3 @@
 
 ![Image of Harindulk ](assets/8bf96fa2e7b68e242f656f65d5d8b9c1.jpeg)
 
-<a href="https://www.buymeacoffee.com/Harindulk" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
