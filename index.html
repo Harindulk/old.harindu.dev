@@ -68,6 +68,8 @@
   <script src="https://kit.fontawesome.com/ddd0d86cf3.js" crossorigin="anonymous"></script>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 
 <body id="page-top">
@@ -123,13 +125,18 @@
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
-          <p class="display-6 color-d">Hello!</p>
+          <p class="display-6 color-d , as animate__animated s_animate__rubberBand">Hello!</p>
           <!--<h2 class="intro-title mb-4">Hi</h2>-->
-          <p class="intro-subtitle">I'm <span class="text-slider-items">Harindu Fonseka,a Student,a Game Developer,a Programmer,a Web Developer</span><strong class="text-slider"></strong></p>
+          <p class="intro-subtitle , as animate__animated s_animate__backInUp">I'm <span
+              class="text-slider-items">Harindu
+              Fonseka,a Student,a Game Developer,a
+              Programmer,a Web Developer</span><strong class="text-slider"></strong></p>
           <p class="display-6 color-d"></p>
-          <p class="pt-3"><a class="btn btn-outline-light btn js-scroll px-4" href="About.html" role="button">About
+          <p class="pt-3"><a class="btn btn-outline-light btn js-scroll px-4 , as animate__animated s_animate__backInDown"
+              href="About.html" role="button">About
               Me</a>
-            <a class="btn btn-outline-light btn js-scroll px-4" href="My-Games.html" role="button">My Games</a>
+            <a class="btn btn-outline-light btn js-scroll px-4 , as animate__animated s_animate__backInDown"
+              href="My-Games.html" role="button">My Games</a>
           </p>
 
         </div>
@@ -175,7 +182,7 @@
         <div class="col py-3 px-lg-5">
           <center>
             <br>
-            <div class="card border-dark mb-3" style="max-width: 18rem;">
+            <div class="card border-dark mb-3 , as animate__animated s_animate__fadeInLeft" style="max-width: 18rem;">
               <div class="card-body text-dark">
                 <h6 class="card-title">Ghost Zone</h6>
                 <p class="card-text">Here you can download the game for free!</p>
@@ -192,7 +199,7 @@
 
           <center>
             <br>
-            <div class="card border-dark mb-3" style="max-width: 18rem;">
+            <div class="card border-dark mb-3 , as animate__animated s_animate__fadeInRight" style="max-width: 18rem;">
               <div class="card-body text-dark">
                 <h6 class="card-title">Doodle Jump</h6>
                 <p class="card-text">Here you can download the game for free!</p>
@@ -264,14 +271,17 @@
       </div>
     </div><!-- End Counter Section -->
 
+    <!--Loader-->
 
+
+
+
+    <!--Model-->
     <script>
       $('#myModal').on('shown.bs.modal', function () {
         $('#myInput').trigger('focus')
       })
     </script>
-
-
 
     <!-- Modal -->
     <div class="modal fade" id="privacy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -600,24 +610,91 @@
           </div>
         </div>
       </div>
-      
 
-      <!--
-<br>
-<center>
-    <a href="My-Games/Ghost-Zone/index.html" class="btn btn-outline-dark btn-lg rounded-circle"><i class="fab fa-youtube"></i></a>
-    <a href="My-Games/Ghost-Zone/index.html" class="btn btn-outline-dark btn-lg rounded-circle"><i class="fab fa-linkedin-in"></i></a>
-    <a href="My-Games/Ghost-Zone/index.html" class="btn btn-outline-dark btn-lg rounded-circle"><i class="fab fa-github"></i></a>
-    <a href="My-Games/Ghost-Zone/index.html" class="btn btn-outline-dark btn-lg rounded-circle"><i class="fab fa-facebook"></i></a>
-    <a href="My-Games/Ghost-Zone/index.html" class="btn btn-outline-dark btn-lg rounded-circle"><i class="fab fa-instagram"></i></a>
 
-</center>
-<br>
--->
-      <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="Harindulk"
-        data-description="Support me on Buy me a coffee!"
-        data-message="Thank you for visiting. You can now buy me a coffee!" data-color="#FFDD00" data-position="Right"
-        data-x_margin="18" data-y_margin="18"></script>
+
+      < <!-- <br>
+        <center>
+          <a href="My-Games/Ghost-Zone/index.html" class="btn btn-outline-dark btn-lg rounded-circle"><i
+              class="fab fa-youtube"></i></a>
+          <a href="My-Games/Ghost-Zone/index.html" class="btn btn-outline-dark btn-lg rounded-circle"><i
+              class="fab fa-linkedin-in"></i></a>
+          <a href="My-Games/Ghost-Zone/index.html" class="btn btn-outline-dark btn-lg rounded-circle"><i
+              class="fab fa-github"></i></a>
+          <a href="My-Games/Ghost-Zone/index.html" class="btn btn-outline-dark btn-lg rounded-circle"><i
+              class="fab fa-facebook"></i></a>
+          <a href="My-Games/Ghost-Zone/index.html" class="btn btn-outline-dark btn-lg rounded-circle"><i
+              class="fab fa-instagram"></i></a>
+
+        </center>
+        <br>
+        -->
+        <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="Harindulk"
+          data-description="Support me on Buy me a coffee!"
+          data-message="Thank you for visiting. You can now buy me a coffee!" data-color="#FFDD00" data-position="Right"
+          data-x_margin="18" data-y_margin="18"></script>
+
+
+        <script>
+          aaosInit({
+            root: '#scrollArea',
+            rootMargin: '0px',
+            threshold: 0.1,
+            aaosClassName: 'as'
+          })
+          // example usage
+          //aaosInit('#scrollArea');
+          /* or
+          aaosInit(); // document.body is scroll area
+          or
+          aaosInit({
+              root: document.querySelector('#scrollArea'),
+              rootMargin: '100px 0px 0px 0px',
+              threshold: 1.0
+            }
+          */
+
+
+          function aaosInit(anchor) {
+            let aaosClassName = 'as'
+            let options
+            if (anchor && (typeof anchor) == 'object')
+              options = anchor
+            else
+              options = {
+                root: document.querySelector(anchor || document.body),
+                rootMargin: '0px',
+                threshold: 0.9
+              }
+            if (options && options.aaosClassName) aaosClassName = options.aaosClassName
+            if (options && options.root && (typeof options.root) == 'string') options.root = document.querySelector(options.root)
+
+            let observer = new IntersectionObserver(callback, options);
+            let targets = document.getElementsByClassName(aaosClassName)
+            for (var i = 0; i < targets.length; i++)
+              observer.observe(targets[i]);
+
+            function callback(entries, observer) {
+              entries.forEach(entry => {
+                if (entry.isIntersecting)
+                  replaceClass(entry.target)
+              });
+            };
+
+            function replaceClass(target) {
+              var classList = target.classList
+              for (var i = 0; i < classList.length; i++) {
+                if (classList[i].startsWith('s_animate')) {
+                  var klass = classList[i]
+                  target.classList.remove(classList[i])
+                  target.classList.add(klass.substring(2))
+                  target.classList.remove(aaosClassName)
+                }
+              }
+            }
+          }
+//export default aaosInit
+        </script>
 
 
 
@@ -706,6 +783,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 
 </body>
 
