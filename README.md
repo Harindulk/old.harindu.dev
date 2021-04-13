@@ -22,9 +22,11 @@
 
 <h3 align="left">Connect with me:</h3>
 
-<a href="https://dev.to/harindullk" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="harindullk" height="30" width="40" /></a>
-<a href="https://twitter.com/harindu_fonseka" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="harindu_fonseka" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/harindulk" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="harindulk" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/harindulk/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://twitter.com/Harindu_Fonseka"> <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+<a href="https://play.google.com/store/apps/dev?id=6729187126243636577"> <img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white" /></a>
+<a href="https://dev.to/harindullk"> <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" /></a>
+<a href="https://harindulk.itch.io/"> <img src="https://img.shields.io/badge/Itch.io-FA5C5C?style=for-the-badge&logo=itch.io&logoColor=white" /></a>
 </p>
 
 
