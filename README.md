@@ -3,6 +3,15 @@
 
 ### Personal website of Harindu Fonseka. Built with NameCheap, Canva, Iconscout, and Icons8. Hosted on Github Pages with .dev Domain.
 
+![](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+
+
+
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/Harindulk"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Harindulk" /></a></p><br><br>
 
