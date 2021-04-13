@@ -1,5 +1,6 @@
 ![](https://img.shields.io/github/repo-size/Harindulk/harindu.dev?style=plastic)
 ![](https://img.shields.io/github/languages/count/Harindulk/harindu.dev?style=plastic)
+![](https://img.shields.io/github/languages/top/Harindulk/harindu.dev?style=plastic)
 #### #Boostrap Studio #NameCheap #Canva #Iconscout #Icons8 #Github Pages
 ### www.harindu.dev 
 
