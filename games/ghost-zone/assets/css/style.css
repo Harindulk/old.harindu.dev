@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #2487ce;
+  color: #000000;
 }
 
 a:hover {
-  color: #469fdf;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #2487ce;
+  border: 6px solid #000000;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #16507b;
+  color: #000000;
 }
 
 #header .logo img {
@@ -178,14 +178,14 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #124265;
+  color: #000000;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #2487ce;
+  color: #000000;
 }
 
 .nav-menu .drop-down ul {
@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   padding: 10px 0;
   background: #fff;
-  box-shadow: 0px 0px 20px rgba(18, 66, 101, 0.1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
   border-radius: 5px;
 }
@@ -219,11 +219,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #124265;
+  color: #000000;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #2487ce;
+  color: #000000;
 }
 
 .nav-menu .drop-down > a:after {
@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #2487ce;
+  background: #000000;
   color: #fff;
   border-radius: 5px;
   padding: 10px 30px 11px 30px;
@@ -281,8 +281,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #2079b8;
-  color: #fff;
+  background: #d4d4d4;
+  color: rgb(0, 0, 0);
 }
 
 @media (max-width: 768px) {
@@ -310,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #124265;
+  color: #000000;
 }
 
 .mobile-nav {
@@ -338,14 +338,14 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #124265;
+  color: #000000;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #2487ce;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/giphy.gif") top center;
   background-size: cover;
   position: relative;
 }
@@ -431,14 +431,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
-  color: #124265;
+  color: #000000;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h2 {
-  color: #5e5e5e;
+  color: #000000;
   margin: 10px 0 0 0;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 #hero .btn-get-started {
@@ -452,11 +452,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #2487ce;
+  background: #000000;
 }
 
 #hero .btn-get-started:hover {
-  background: #3194db;
+  background: #c2c2c2;
 }
 
 #hero .icon-boxes {
@@ -658,15 +658,8 @@ section {
 /*--------------------------------------------------------------
 # About Video
 --------------------------------------------------------------*/
-.about-video .content {
-  font-size: 15px;
-}
 
-.about-video .content h3 {
-  font-weight: 700;
-  font-size: 24px;
-  color: #124265;
-}
+
 
 .about-video .content ul {
   list-style: none;
@@ -721,8 +714,8 @@ section {
 .about-video .play-btn::before {
   content: '';
   position: absolute;
-  width: 120px;
-  height: 120px;
+  width: 125px;
+  height: 125px;
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
   -webkit-animation: pulsate-btn 2s;
