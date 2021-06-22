@@ -4,8 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://www.harindu.dev/</loc>
@@ -37,6 +35,5 @@
   <lastmod>2021-02-24T01:35:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-
 
 </urlset>
