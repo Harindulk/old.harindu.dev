@@ -4,7 +4,7 @@
 ![](https://img.shields.io/github/languages/top/Harindulk/harindu.dev?style=plastic)
 ![](https://img.shields.io/github/last-commit/Harindulk/harindu.dev?color=red&style=plastic)
 
-#### #NameCheap #Canva #Iconscout #Icons8 #Github Pages
+#### #NameCheap #Canva #Iconscout #Icons8
 ### www.harindu.dev
 
 
