@@ -4,11 +4,9 @@
 ![](https://img.shields.io/github/languages/top/Harindulk/harindu.dev?style=plastic)
 ![](https://img.shields.io/github/last-commit/Harindulk/harindu.dev?color=red&style=plastic)
 
-#### #Boostrap Studio #NameCheap #Canva #Iconscout #Icons8 #Github Pages
-
+#### #NameCheap #Canva #Iconscout #Icons8
 ### www.harindu.dev
 
-### Personal website of Harindu Fonseka. Built with NameCheap, Canva, Iconscout, and Icons8. Hosted on Github Pages with .dev Domain.
 
 ![](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
