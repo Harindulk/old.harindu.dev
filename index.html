@@ -207,33 +207,47 @@
     </div>
     <br>
 -->
-<div>
+    <div>
 
-    <!--3D-->
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+      <!--3D-->
+      <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 
-      <model-viewer src="assets/3D/tree.glb" camera-controls shadow-softness="1" exposure="1.47" auto-rotate min-camera-orbit="auto auto auto" max-camera-orbit="auto auto auto">
+      <model-viewer src="assets/3D/tree.glb" camera-controls shadow-softness="1" exposure="1.47" auto-rotate
+        min-camera-orbit="auto auto auto" max-camera-orbit="auto auto auto">
 
         <div class="progress-bar hide" slot="progress-bar">
-            <div class="update-bar"></div>
+          <div class="update-bar"></div>
         </div>
         <button slot="ar-button" id="ar-button">
-            View in your space
+          View in your space
         </button>
-        
-    </model-viewer>
 
-    <style>
-      model-viewer{
-        width: 1000px;
-        height: 600px;
-        margin: center;
-      }
-    </style>
+      </model-viewer>
 
-  </div>
-    
+      <style>
+        model-viewer {
+          width: 1000px;
+          height: 600px;
+          margin: center;
+        }
+
+
+        @media only screen and (max-width: 1500px) {
+
+         
+        }
+
+        @media only screen and (min-width:1501px) {
+
+         
+        }
+      </style>
+
+
+
+    </div>
+
 
 
     <!-- ======= Counter Section ======= -->
