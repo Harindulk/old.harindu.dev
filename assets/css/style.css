@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "fontBold";
+  src: url("../../assets/fonts/PlusJakartaSans-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "fontRegular";
+  src: url(../../assets/fonts/PlusJakartaSans-Regular.woff2) format("woff2");
+}
+
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
