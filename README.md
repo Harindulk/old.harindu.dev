@@ -1,8 +1,8 @@
-![](https://img.shields.io/github/repo-size/Harindulk/harindu.dev?style=plastic)
-![](https://img.shields.io/tokei/lines/github/Harindulk/harindu.dev?style=plastic)
-![](https://img.shields.io/github/languages/count/Harindulk/harindu.dev?style=plastic)
-![](https://img.shields.io/github/languages/top/Harindulk/harindu.dev?style=plastic)
-![](https://img.shields.io/github/last-commit/Harindulk/harindu.dev?color=red&style=plastic)
+![](https://img.shields.io/github/repo-size/Harindulk/harindu.dev?style=flat-square&logo=appveyor)
+![](https://img.shields.io/tokei/lines/github/Harindulk/harindu.dev?style=flat-square&logo=appveyor)
+![](https://img.shields.io/github/languages/count/Harindulk/harindu.dev?style=flat-square&logo=appveyor)
+![](https://img.shields.io/github/languages/top/Harindulk/harindu.dev?style=flat-square&logo=appveyor)
+![](https://img.shields.io/github/last-commit/Harindulk/harindu.dev?style=flat-square&logo=appveyor)
 
 #### #NameCheap #Canva #Iconscout #Icons8
 ### www.harindu.dev
@@ -26,5 +26,3 @@
 <a href="https://harindulk.itch.io/"> <img src="https://img.shields.io/badge/Itch.io-FA5C5C?style=for-the-badge&logo=itch.io&logoColor=white" /></a>
 
 </p>
-
-![Image of Harindulk ](assets/8bf96fa2e7b68e242f656f65d5d8b9c1.jpeg)
