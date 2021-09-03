@@ -1,8 +1,8 @@
-![](https://img.shields.io/github/repo-size/Harindulk/harindu.dev?style=plastic)
-![](https://img.shields.io/tokei/lines/github/Harindulk/harindu.dev?style=plastic)
-![](https://img.shields.io/github/languages/count/Harindulk/harindu.dev?style=plastic)
-![](https://img.shields.io/github/languages/top/Harindulk/harindu.dev?style=plastic)
-![](https://img.shields.io/github/last-commit/Harindulk/harindu.dev?color=red&style=plastic)
+![](https://img.shields.io/github/repo-size/Harindulk/harindu.dev?style=flat-square&logo=appveyor)
+![](https://img.shields.io/tokei/lines/github/Harindulk/harindu.dev?style=flat-square&logo=appveyor)
+![](https://img.shields.io/github/languages/count/Harindulk/harindu.dev?style=flat-square&logo=appveyor)
+![](https://img.shields.io/github/languages/top/Harindulk/harindu.dev?style=flat-square&logo=appveyor)
+![](https://img.shields.io/github/last-commit/Harindulk/harindu.dev?style=flat-square&logo=appveyor)
 
 #### #NameCheap #Canva #Iconscout #Icons8
 ### www.harindu.dev
