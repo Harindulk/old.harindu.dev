@@ -24,13 +24,13 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/dark-main.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
 
-  <!-- ======= Intro Section ======= -->
+  <!--Intro -->
   <div id="home" class="intro route bg-image" style="background-image: url(assets/img/html\ Photo.svg)">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
@@ -45,14 +45,58 @@
           </p>
           <p class="display-6 color-d"></p>
 
-          <p class="pt-3"><br><a class="btn btn-primary btn js-scroll px-4" href="index.html" role="button">Go To Main
+          <p class="pt-3"><br><a class="btn btn-outline-light btn js-scroll px-4" href="index.html" role="button">Go To Main
               Page</a>
           </p>
 
         </div>
       </div>
     </div>
-  </div><!-- End Intro Section -->
+  </div>
+
+  <style>
+    .intro {
+      height: 100vh;
+      position: relative;
+      color: #fff;
+    }
+    
+    .intro .intro-content {
+      text-align: center;
+      position: absolute;
+    }
+    
+    .intro .overlay-itro {
+      background-color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0px;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+    .intro .intro-title {
+      color: #fff;
+      font-weight: 600;
+      font-size: 3rem;
+    }
+    
+    @media (min-width: 768px) {
+      .intro .intro-title {
+        font-size: 4.5rem;
+      }
+    }
+    
+    .intro .intro-subtitle {
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+    </style>
+  
+  <!--End -->
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
