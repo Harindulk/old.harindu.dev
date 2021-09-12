@@ -523,6 +523,7 @@ body {
     color: rgb(0, 0, 0);
     font-size: 1.6rem;
     font-weight: 600;
+    font-family: 'Amatic SC', cursive;  
   }
   
   .navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,
