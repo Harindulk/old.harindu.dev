@@ -1,13 +1,8 @@
-@font-face {
-    font-family: "fontBold";
-    src: url("../../assets/fonts/PlusJakartaSans-Bold.woff2") format("woff2");
-  }
-  
-  
-  body {
-    background-color: #050505cc;
-    color: #ffffff;
+zbody {
+    background-color: #f5f5f5;
+    color: #4e4e4e;
     font-family: 'Quicksand', sans-serif;
+    
   }
   
   h1,
@@ -16,16 +11,16 @@
   h4,
   h5,
   h6 {
-    color: #ffffff;
+    color: #1e1e1e;
   }
   
   a {
-    color: #ffffff;
+    color: #1e1e1e;
     transition: all 0.5s ease-in-out;
   }
   
   a:hover {
-    color: #ffffff3a;
+    color: #000000;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
   }
@@ -51,7 +46,7 @@
   .service-box,
   .work-box,
   .card-blog {
-    box-shadow: 0 13px 8px -10px rgba(255, 255, 255, 0);
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
   }
   
   .box-shadow-a,
@@ -71,20 +66,7 @@
     line-height: 1.1;
   }
   
-  .avatar {
-    width: 32px;
-    height: 32px;
-    margin-right: 4px;
-    overflow: hidden;
-  }
-  
-  .bg-image {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: large;
-    background-position: center center;
-  }
-  
+
   @media (max-width: 1024px) {
     .bg-image {
       background-attachment: scroll;
@@ -190,7 +172,7 @@
   .box-shadow-full {
     padding: 3rem 1.25rem;
     position: relative;
-    background-color: rgb(0, 0, 0);
+    background-color: #fff;
     margin-bottom: 3rem;
     z-index: 2;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -204,7 +186,7 @@
   
   /*------/ Socials /------*/
   .socials {
-    padding: 2rem 0;
+    padding: 1.5rem 0;
   }
   
   .soc ul {
@@ -252,8 +234,62 @@
     display: block;
   }
   
-  /*------/ laoder /------*/
+  /*------/ Owl Carousel /------*/
+  .owl-theme .owl-dots {
+    text-align: center;
+    margin-top: 18px;
+  }
   
+  .owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+  }
+  
+  .owl-theme .owl-dots .owl-dot span {
+    width: 18px;
+    height: 7px;
+    margin: 5px 5px;
+    background: #cde1f8;
+    border: 0px solid #cde1f8;
+    display: block;
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #cde1f8;
+  }
+  
+  .owl-theme .owl-dots .owl-dot.active span {
+    background-color: #1b1b1b;
+    width: 25px;
+  }
+  
+  /*--/ Scrolltop s /--*/
+  .scrolltop-mf {
+    position: relative;
+    display: none;
+  }
+  
+  .scrolltop-mf span {
+    z-index: 999;
+    position: fixed;
+    width: 42px;
+    height: 42px;
+    background-color: #000000;
+    opacity: 0.7;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    top: auto;
+    left: auto;
+    right: 30px;
+    bottom: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  /*------/ Prelaoder /------*/
   #preloader {
     position: fixed;
     top: 0;
@@ -262,7 +298,7 @@
     bottom: 0;
     z-index: 9999;
     overflow: hidden;
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.644);
   }
   
   #preloader:before {
@@ -376,7 +412,7 @@
   
   .navbar-b.navbar-trans .nav-link,
   .navbar-b.navbar-reduce .nav-link {
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-weight: 600;
   }
@@ -422,18 +458,18 @@
   }
   
   .navbar-b.navbar-trans .nav-link:before {
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
   }
   
   .navbar-b.navbar-trans .nav-link:hover {
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
   
   .navbar-b.navbar-trans .show > .nav-link,
   .navbar-b.navbar-trans .active > .nav-link,
   .navbar-b.navbar-trans .nav-link.show,
   .navbar-b.navbar-trans .nav-link.active {
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
   
   .navbar-b.navbar-reduce {
@@ -471,7 +507,7 @@
   }
   
   .navbar-b .navbar-brand {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 1.6rem;
     font-weight: 600;
     font-family: 'Amatic SC', cursive;  
@@ -504,7 +540,7 @@
     background-color: #000000;
   }
   
-  /*--/ Navbar /--*/
+  /*--/ Hamburger Navbar /--*/
   .navbar-toggler {
     position: relative;
   }
@@ -516,7 +552,7 @@
   
   .navbar-toggler span {
     display: block;
-    background-color: #050505cc;
+    background-color: rgb(0, 0, 0);
     height: 3px;
     width: 25px;
     margin-top: 4px;
@@ -552,6 +588,24 @@
     transform: rotate(-135deg);
     opacity: 0.9;
   }
-  .ghost-zone{
-    background-color: #000000;
+  
+  
+  /* # Footer*/
+  footer {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 25px 0;
+    background: #ffffff;
+  }
+  
+  footer .copyright {
+    margin-bottom: 0.3rem;
+  }
+  
+  footer .credits {
+    margin-bottom: 0;
+  }
+  
+  footer .credits a {
+    color: rgb(0, 0, 0);
   }
