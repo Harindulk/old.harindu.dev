@@ -1,5 +1,5 @@
 .contact-clean {
-  background: #F5F5F5;
+  background: #000000;
   padding: 80px 0;
 }
 
@@ -13,7 +13,7 @@
   max-width: 480px;
   width: 90%;
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: #000000;
   padding: 40px;
   border-radius: 4px;
   color: #000000;
@@ -39,9 +39,9 @@
 }
 
 .contact-clean form .form-control {
-  background: #fff;
+  background: rgb(0, 0, 0);
   border-radius: 2px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 1px rgba(255, 0, 0, 0.05);
   outline: none;
   color: inherit;
   padding-left: 12px;
@@ -50,7 +50,7 @@
 }
 
 .contact-clean form .form-control:focus {
-  border: 1px solid #ffffff;
+  border: 1px solid #000000;
 }
 
 .contact-clean form textarea.form-control {

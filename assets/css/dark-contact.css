@@ -1,6 +1,6 @@
 body {
-  background-color: #191919;
-  color: #4e4e4e;
+  background-color: #000000;
+  color: #ffffff;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -8,13 +8,12 @@ h1,
 h2,
 h3,
 h4,
-h5,
+h5 {
+  color: #fdfdfd;
+}
+
 h6 {
-<<<<<<< HEAD
   color: #ffffff;
-=======
-  color: #000000;
->>>>>>> b52db9a75c4fc227795f0c39500586a0559dc955
 }
 
 a {
@@ -135,7 +134,7 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #ffffff;
   font-size: 1.1rem;
 }
 
@@ -188,7 +187,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -604,3 +603,24 @@ svg {
   transform: rotate(-135deg);
   opacity: 0.9;
 }
+
+  
+  /* # Footer*/
+  footer {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 25px 0;
+    background: #000000;
+  }
+  
+  footer .copyright {
+    margin-bottom: 0.3rem;
+  }
+  
+  footer .credits {
+    margin-bottom: 0;
+  }
+  
+  footer .credits a {
+    color: rgb(255, 255, 255);
+  }
