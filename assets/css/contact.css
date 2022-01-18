@@ -66,20 +66,7 @@ body {
     line-height: 1.1;
   }
   
-  .avatar {
-    width: 32px;
-    height: 32px;
-    margin-right: 4px;
-    overflow: hidden;
-  }
-  
-  .bg-image {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: large;
-    background-position: center center;
-  }
-  
+
   @media (max-width: 1024px) {
     .bg-image {
       background-attachment: scroll;
@@ -602,3 +589,23 @@ body {
     opacity: 0.9;
   }
   
+  
+  /* # Footer*/
+  footer {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 25px 0;
+    background: #ffffff;
+  }
+  
+  footer .copyright {
+    margin-bottom: 0.3rem;
+  }
+  
+  footer .credits {
+    margin-bottom: 0;
+  }
+  
+  footer .credits a {
+    color: rgb(0, 0, 0);
+  }
