@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: harindu.dev
+Token: 00f34f459e2b4b65e019edaa5eb3a3693c46fd18408702bbc4bed3dda91d4c87
