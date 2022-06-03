@@ -16,24 +16,10 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.harindu.dev/My-Games.html</loc>
-  <lastmod>2021-01-27T02:12:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://www.harindu.dev/contact.html</loc>
   <lastmod>2021-01-27T02:12:08+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://www.harindu.dev/My-Games/Ghost-Zone/index.html</loc>
-  <lastmod>2021-02-24T01:35:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.harindu.dev/My-Games/Doodle-Jump/index.html</loc>
-  <lastmod>2021-02-24T01:35:13+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
+
 
 </urlset>
