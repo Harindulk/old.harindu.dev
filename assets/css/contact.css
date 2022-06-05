@@ -1,163 +1,156 @@
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
-  font-family: 'Sen', sans-serif;
+  font-family: Sen, sans-serif
 }
 
 h2 {
-  color: #1e1e1e;
+  color: #1e1e1e
 }
 
 a {
   color: #1e1e1e;
-  transition: all 0.5s ease-in-out;
+  transition: all .5s ease-in-out
 }
 
 a:hover {
-  color: #000000;
+  color: #000;
   text-decoration: none;
-  transition: all 0.5s ease-in-out;
+  transition: all .5s ease-in-out
 }
 
-/*------/ Socials /------*/
 .socials {
-  padding: 1.5rem 0;
-}
-li {
-  display: inline-block;
-}
-svg {
-  width: 60px;
+  padding: 1.5rem 0
 }
 
-/*------/ Ul resect /------*/
+li {
+  display: inline-block
+}
+
+svg {
+  width: 60px
+}
+
 .socials ul {
   list-style: none;
   padding-left: 0;
-  margin-bottom: 0;
+  margin-bottom: 0
 }
 
-
-/*--------------------------------------------------------------
-# Nav Bar
---------------------------------------------------------------*/
 .navbar-b {
-  transition: all 0.5s ease-in-out;
+  transition: all .5s ease-in-out;
   background-color: transparent;
   padding-top: 1.563rem;
-  padding-bottom: 1.563rem;
+  padding-bottom: 1.563rem
 }
 
 .navbar-b.navbar-trans .nav-item {
   position: relative;
   padding-right: 10px;
-  padding-left: 0;
+  padding-left: 0
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
   .navbar-b.navbar-trans .nav-item {
-    padding-left: 10px;
+    padding-left: 10px
   }
 }
 
 .navbar-b.navbar-trans .nav-link {
-  color: rgb(0, 0, 0);
+  color: #000;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 600
 }
 
 .navbar-b.navbar-trans .nav-link:before {
   content: "";
   position: absolute;
-  margin-left: 0px;
+  margin-left: 0;
   width: 0%;
   bottom: 0;
   left: 0;
   height: 2px;
-  transition: all 500ms ease;
+  transition: all .5s ease
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
   .navbar-b.navbar-trans .nav-link:before {
-    margin-left: 18px;
+    margin-left: 18px
   }
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #1b1b1b;
+  color: #1b1b1b
 }
 
 .navbar-b.navbar-trans .nav-link:hover:before {
-  width: 35px;
+  width: 35px
 }
 
 .navbar-b.navbar-trans .nav-link.active:before {
-  width: 35px;
+  width: 35px
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: rgb(0, 0, 0);
+  background-color: #000
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: rgb(0, 0, 0);
+  color: #000
 }
 
 .navbar-b.navbar-trans .nav-link.active {
-  color: rgb(0, 0, 0);
+  color: #000
 }
 
 .navbar-b .navbar-brand {
-  color: rgb(0, 0, 0);
+  color: #000;
   font-size: 1.6rem;
   font-weight: 600;
-  font-family: 'Amatic SC', cursive;  
+  font-family: 'Amatic SC', cursive
 }
 
-/*--/ Hamburger Navbar /--*/
 .navbar-toggler {
-  position: relative;
+  position: relative
 }
 
-.navbar-toggler:focus,
-.navbar-toggler:active {
-  outline: 0;
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  outline: 0
 }
 
 .navbar-toggler span {
   display: block;
-  background-color: rgb(0, 0, 0);
+  background-color: #000;
   height: 3px;
   width: 25px;
   margin-top: 4px;
   margin-bottom: 4px;
-  transform: rotate(0deg);
+  transform: rotate(0);
   left: 0;
-  opacity: 1;
+  opacity: 1
 }
 
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
-  transition: transform 0.35s ease-in-out;
+  transition: transform .35s ease-in-out
 }
 
-
-/* # Footer*/
 footer {
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: #000;
   padding: 25px 0;
-  background: #ffffff;
+  background: #fff
 }
 
 footer .copyright {
-  margin-bottom: 0.3rem;
+  margin-bottom: .3rem
 }
 
 footer .credits {
-  margin-bottom: 0;
+  margin-bottom: 0
 }
 
 footer .credits a {
-  color: rgb(0, 0, 0);
+  color: #000
 }
