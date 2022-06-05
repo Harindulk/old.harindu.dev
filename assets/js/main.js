@@ -10,30 +10,6 @@
     }
   })
 
-  // Preloader
-  $(window).on('load', function() {
-    if ($('#preloader').length) {
-      $('#preloader').delay(100).fadeOut('slow', function() {
-        $(this).remove();
-      });
-    }
-  });
-
-  // Back to top button
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('.back-to-top').fadeIn('slow');
-    } else {
-      $('.back-to-top').fadeOut('slow');
-    }
-  });
-  $('.back-to-top').click(function() {
-    $('html, body').animate({
-      scrollTop: 0
-    }, 1500, 'easeInOutExpo');
-    return false;
-  });
-
   /*--/ Star ScrollTop /--*/
   $('.scrolltop-mf').on("click", function() {
     $('html, body').animate({
@@ -112,33 +88,13 @@
     var typed_strings = $('.text-slider-items').text();
     var typed = new Typed('.text-slider', {
       strings: typed_strings.split(','),
-      typeSpeed: 80,
+      typeSpeed: 30,
       loop: true,
-      backDelay: 1100,
-      backSpeed: 30
+      backDelay: 1500,
+      backSpeed: 30,
+      showCursor: false
     });
   }
-
-  /*--/ Testimonials owl /--*/
-  $('#testimonial-mf').owlCarousel({
-    margin: 20,
-    autoplay: true,
-    autoplayTimeout: 4000,
-    autoplayHoverPause: true,
-    responsive: {
-      0: {
-        items: 1,
-      }
-    }
-  });
-
-  // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
-  });
 
   // Initiate venobox (lightbox feature used in portofilo)
   $(document).ready(function() {
