@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'amatic_scregular';
+  src: url('/assets/fonts/amaticsc-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'senregular';
+  src: url('/assets/fonts/sen-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+  
   /*--------------------------------------------------------------
   # Nav Bar
   --------------------------------------------------------------*/
@@ -126,7 +140,7 @@
     color: rgb(0, 0, 0);
     font-size: 1.6rem;
     font-weight: 600;
-    font-family: 'Amatic SC', cursive;  
+    font-family: 'amatic_scregular';
   }
   
   .navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,
