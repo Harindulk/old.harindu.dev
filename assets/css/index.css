@@ -87,23 +87,7 @@ a:hover {
     vertical-align: middle
 }
 
-.socials {
-    padding: 2rem 0
-}
 
-li {
-    display: inline-block
-}
-
-svg {
-    width: 60px
-}
-
-.socials ul {
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 0
-}
 
 .ico-circle {
     height: 100px;
@@ -191,9 +175,10 @@ svg {
 
 footer {
     text-align: center;
-    color: #000;
+    color: #19191B;
     padding: 25px 0;
-    background: #fff
+    background: #ffffff;
+    font-size: 1.2rem;
 }
 
 footer .copyright {
@@ -204,8 +189,26 @@ footer .credits {
     margin-bottom: 0
 }
 
-footer .credits a {
-    color: #000000
+svg {
+    width: 40px;
+    height: 40px;
+    fill: #19191B;
+    margin-right: 8px
+}
+
+.socials {
+    padding: 2rem 0
+}
+
+li {
+    display: inline-block;
+}
+
+
+.socials ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0
 }
 
 /* navbar */
@@ -238,7 +241,6 @@ footer .credits a {
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
     color: #fff;
-    text-transform: uppercase;
     font-weight: 600
 }
 
@@ -336,7 +338,6 @@ footer .credits a {
     color: #fff;
     font-size: 1.6rem;
     font-weight: 600;
-    font-family: 'amatic_scregular';
 }
 
 .navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,

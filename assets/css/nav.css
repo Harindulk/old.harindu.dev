@@ -43,7 +43,6 @@
   .navbar-b.navbar-trans .nav-link,
   .navbar-b.navbar-reduce .nav-link {
     color: rgb(0, 0, 0);
-    text-transform: uppercase;
     font-weight: 600;
   }
   
@@ -140,7 +139,6 @@
     color: rgb(0, 0, 0);
     font-size: 1.6rem;
     font-weight: 600;
-    font-family: 'amatic_scregular';
   }
   
   .navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,
