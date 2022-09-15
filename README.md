@@ -1,6 +1,5 @@
 ### harindu.dev
 ![](https://img.shields.io/github/repo-size/Harindulk/old.harindu.dev?style=flat-square&logo=appveyor)
-![](https://img.shields.io/tokei/lines/github/Harindulk/old.harindu.dev?style=flat-square&logo=appveyor)
 ![](https://img.shields.io/github/languages/count/Harindulk/old.harindu.dev?style=flat-square&logo=appveyor)
 ![](https://img.shields.io/github/languages/top/Harindulk/old.harindu.dev?style=flat-square&logo=appveyor)
 ![](https://img.shields.io/github/last-commit/Harindulk/old.harindu.dev?style=flat-square&logo=appveyor)
