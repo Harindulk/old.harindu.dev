@@ -13,8 +13,7 @@
 }
 
 body {
-  background-color: #EEEEEE;
-  color: #4e4e4e;
+  color: #000000;
   font-family: 'senregular';
 }
 
@@ -93,39 +92,34 @@ svg {
   margin-bottom: 0
 }
 
-.about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem
-}
-
-.about-mf .about-img {
+.about-img {
   margin-bottom: 2rem
 }
 
-.about-mf .about-img img {
-  margin-left: 10px
+.about-img img {
+  border-radius: 500px;
+  width: 300px;
+  height: 300px;
 }
 
-.skill-mf span {
-  color: #000
+@media screen and (max-width: 355px) {
+  .about-img img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
-.skill-mf .progress {
-  background-color: #00000034;
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #000000e7
-}
 
 footer {
   text-align: center;
   color: #19191B;
-  padding: 25px 0;
+  padding: 85px 0;
   background: #ffffff;
   font-size: 1.2rem;
 }
@@ -143,4 +137,24 @@ svg {
   height: 40px;
   fill: #19191B;
   margin-right: 8px
+}
+
+.fullscreenDiv {
+  background-color: #e8e8e8;
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  top: 0px;
+  left: 0;
+  position: absolute;
+}
+
+.space {
+  height: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .space {
+    height: 50px;
+  }
 }
